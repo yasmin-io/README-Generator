@@ -19,11 +19,19 @@ Here is a walkthrough of how to use my command-line application.
 
 > This project is still in progress. Currently no walkthrough video available.
 
+These are the series of questions the developer is provided with:
+
+> Put image here
+
 ## Future Tests (Bugs & Fixes)
 
 ---
 
 > Currently, no Bugs or Fixes. If you come across any complications or problems feel free to contact me using the below.
+
+### Improvements
+
+Though I don't have any bugs, there is one thing I would want to improve in the future. I was unable to create a dynamic license paragraph that would appear at the bottom of the README. This would provide more information for the developers customers in future.
 
 ### Contact Me:
 

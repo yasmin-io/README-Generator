@@ -71,6 +71,10 @@ ${data.usage}
 Here are any problems I encountered with this project or any tests I ran:
 ${data.tests}
 
+## Contributors:
+---
+${data.contributors}
+
 ## Contact 
 ---
 Please contact me if you have any question or inquiries

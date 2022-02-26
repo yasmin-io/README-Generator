@@ -50,6 +50,11 @@ const questions = [
     message: "Please write in detail any bugs, problems or tests you ran.",
   },
   {
+    type: "input",
+    name: "contributors",
+    message: "Where there any other contributors you want to credit?",
+  },
+  {
     type: "list",
     name: "license",
     message: "Please select the lincense that is appropriate for your project.",
