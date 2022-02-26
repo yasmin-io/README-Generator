@@ -21,7 +21,7 @@ Here is a walkthrough of how to use my command-line application.
 
 These are the series of questions the developer is provided with:
 
-> Put image here
+![Example](https://github.com/yasmin-io/README-Generator/blob/a340b1f833556a3fca477142697f4258a6919215/images/Example.png)
 
 ## Future Tests (Bugs & Fixes)
 
