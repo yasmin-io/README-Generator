@@ -1,10 +1,10 @@
-// TODO: Include packages needed for this application
+// List of necessities for this project
 const fs = require("fs");
 const path = require("path");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
-// TODO: Create an array of questions for user input
+// An array of questions for the user to answer for the readme.
 const questions = [
   {
     type: "input",
@@ -14,7 +14,7 @@ const questions = [
   {
     type: "input",
     name: "title",
-    message: "What is the title of your project?",
+    message: "What would you like the title of your project to be?",
   },
   {
     type: "input",
@@ -24,29 +24,35 @@ const questions = [
   {
     type: "input",
     name: "description",
-    message: "Please give a description of your project.",
+    message: "Please provide a description for your project.",
   },
   {
     type: "input",
     name: "installation",
-    message: "Please give n overview of installing of your project.",
+    message:
+      "Please provide a detailed, instructional overview of how to install of your project.",
   },
   {
     type: "input",
     name: "usage",
-    message: "Please give n overview of using of your project.",
+    message: "Please provide detailed instructions of how to use your project.",
+  },
+  {
+    type: "input",
+    name: "tests",
+    message: "Please write in detail any bugs, problems or tests you ran.",
   },
 ];
 
-// TODO: Create a function to write README file
+// This function writed the information to the README
 function writeToFile(fileName, data) {
-  //Creathe Path where we want to add the new readme
+  //Create the Path where we want to add the new readme
   const pathName = path.join(process.cwd(), fileName);
   //Create README.md in current working directory with users answers
   return fs.writeFileSync(pathName, data);
 }
 
-// TODO: Create a function to initialize app
+// Initialising App Function
 function init() {
   inquirer.prompt(questions).then((inquirerAnswers) => {
     // Creating variable to store string returned from GenerateMarkdown using Users console answers
