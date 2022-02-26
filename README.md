@@ -15,9 +15,9 @@ I wanted to build a command-line application for developers, to provide them a s
 
 ## README Generator Walk Through
 
-Here is a walkthrough of how to use my command-line application.
+Here is a walkthrough to help you use my command-line application correctly:
 
-> This project is still in progress. Currently no walkthrough video available.
+Node.js command like application [Walkthrough](https://youtu.be/UwlT9AhNmjA).
 
 These are the series of questions the developer is provided with:
 
