@@ -52,7 +52,7 @@ function init() {
     // Creating variable to store string returned from GenerateMarkdown using Users console answers
     const markdownData = generateMarkdown({ ...inquirerAnswers });
     // Passing file name and the users answers string to writeToFile function
-    writeToFile("README.md", markdownData);
+    writeToFile("Project-README.md", markdownData);
   });
 }
 

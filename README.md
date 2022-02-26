@@ -1,19 +1,35 @@
-# Markdonw Gen
+# README Generator: Node.js
 
-### Authors email: cjl@gmail.com
+## Project Description
 
-### Authors GitHub: [yasmin-io](https://github.com/yasmin-io/)
+I wanted to build a command-line application for developers, to provide them a speedy alternative to writing a README.md. Encouraging developers to devote more time to their project while still having a high-quality, detailed README.md for the user to navigate their product.
 
-## Its a project
+## Tasks
 
-## Contents:
+---
 
-- [Installation](#installation)
+- Prompt the developer in the command line a series of questions
+- The readme should contain the following: The Title of their project and sections entitled Description, Table of Contents, Installation, Usage, License, Github Link, Contact and Tests.
+- The Developer should be able to choose the license badge appropriate for their project.
+- The Table Contents should direct the user to the corresponding section for the README.md for easier navigation.
 
-- [Usage](#usage)
+## README Generator Walk Through
 
-## Installation - Please find details on installing this project below:
+> This project is still in progress. Currently no walkthrough video available.
 
-## Usage - Please find details on usage below:
+## How To Use?
 
-It can be used
+Using the [inquirer package](https://www.npmjs.com/package/inquirer), you should be able to invoke the application using:
+node index.js
+
+## Future Tests (Bugs & Fixes)
+
+---
+
+> Currently, no Bugs or Fixes. If you come across any complications or problems feel free to contact me using the below.
+
+### Contact Me:
+
+yasmin.bunnie@gmail.com
+
+Copyright © [2021] [Yasmin A]
