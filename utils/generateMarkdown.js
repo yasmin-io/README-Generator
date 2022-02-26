@@ -18,9 +18,10 @@ function generateMarkdown(data) {
 
 ${data.description}
 
- ---
+ 
 
  ## Contents:
+ ---
 
 * [Installation](#installation)
 
@@ -30,8 +31,11 @@ ${data.description}
 
 * [Testing, Bugs & Troubleshooting](#tests)
 
----
+*[License](#license)
+
+
 ## Installation - 
+---
 Please find details on installing this project below: 
 
 ${data.installation}
@@ -41,18 +45,21 @@ Please find details on usage below:
 
 ${data.usage}
 
----
 
 ## Trouble Shooting, Bugs & Tests: 
+---
 Here are any problems I encountered with this project or any tests I ran:
 ${data.tests}
 
 ## Authors Contact: 
-
+---
 ### Authors email: ${data.email}
 ### Authors GitHub: [${data.github}](https://github.com/${data.github}/)
----
-## License:
+
+
+##License:
+
+ © [${data.name}](https://github.com/${data.github}/)
 
 
 `;
