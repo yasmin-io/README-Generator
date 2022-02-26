@@ -1,18 +1,38 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
+// This function displays a badge on the README for the license
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) {
+  if (license !== "N/A") {
+    return `<img src=https://img.shields.io/badge/License-${license}-green.svg>`;
+  } else {
+    return "";
+  }
+}
 
-// TODO: Create a function that returns the license link
+// Adds a link to the table contents directing towards the license section
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  if (license !== "N/A") {
+    return `[License](#license)`;
+  } else {
+    return "";
+  }
+}
 
-// TODO: Create a function that returns the license section of README
+// Returns the License scetion of the README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  if (license !== "N/A") {
+    return `## License: 
+  Project Licensed By:  ${license} License`;
+  } else {
+    return "";
+  }
+}
 
-// TODO: Create a function to generate markdown for README
+// Generated Markdown using users provided answers
 function generateMarkdown(data) {
   return `# ${data.title}
+
 
 ## Project Description 
 
@@ -29,39 +49,42 @@ ${data.description}
 
 * [Contact](#contact)
 
-* [Testing, Bugs & Troubleshooting](#tests)
+* [Tests](#tests)
 
-*[License](#license)
+* ${renderLicenseLink(data.license)}
 
 
-## Installation - 
+## Installation 
 ---
 Please find details on installing this project below: 
 
 ${data.installation}
 
-## Usage - 
+## Usage 
 Please find details on usage below:
 
 ${data.usage}
 
 
-## Trouble Shooting, Bugs & Tests: 
+## Tests: 
 ---
 Here are any problems I encountered with this project or any tests I ran:
 ${data.tests}
 
-## Authors Contact: 
+## Contact 
 ---
+Please contact me if you have any question or inquiries
+
 ### Authors email: ${data.email}
+
 ### Authors GitHub: [${data.github}](https://github.com/${data.github}/)
 
 
-##License:
-
- © [${data.name}](https://github.com/${data.github}/)
-
-
+---
+${renderLicenseSection(data.license)}  ©  [${data.name}](https://github.com/${
+    data.github
+  }/)
+  ${renderLicenseBadge(data.license)}
 `;
 }
 

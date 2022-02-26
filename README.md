@@ -15,12 +15,9 @@ I wanted to build a command-line application for developers, to provide them a s
 
 ## README Generator Walk Through
 
+Here is a walkthrough of how to use my command-line application.
+
 > This project is still in progress. Currently no walkthrough video available.
-
-## How To Use?
-
-Using the [inquirer package](https://www.npmjs.com/package/inquirer), you should be able to invoke the application using:
-node index.js
 
 ## Future Tests (Bugs & Fixes)
 
@@ -30,6 +27,9 @@ node index.js
 
 ### Contact Me:
 
-yasmin.bunnie@gmail.com
+If you have any questions, feel free to contact me.
+
+Email: yasmin.bunnie@gmail.com
+GitHub: [yasmin-io](https://github.com/yasmin-io)
 
 Copyright © [2021] [Yasmin A]
