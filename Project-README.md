@@ -1,12 +1,12 @@
-# README
+# README Generator: Node.js
 
- ### Authors email: yasmin.bunnie@hotmail.com
+ ---
 
- ### Authors GitHub: [yasmin-io](https://github.com/yasmin-io/)
+## Project Description 
 
- ## Description 
- 
- # I wanted to build a command-line application for developers, to provide them a speedy alternative to writing a README.md. Encouraging developers to devote more time to their project while still having a high-quality, detailed README.md for the user to navigate their product.
+I wanted to build a command-line application for developers, to provide them a speedy alternative to writing a README.md.
+
+ ---
 
  ## Contents:
 
@@ -14,10 +14,30 @@
 
 * [Usage](#usage)
 
-## Installation - Please find details on installing this project below: 
+* [Contact](#contact)
 
-download npm and stuff
+* [Testing, Bugs & Troubleshooting](#tests)
 
-## Usage - Please find details on usage below:
+---
+## Installation - 
+Please find details on installing this project below: 
 
-its kinda cool
+Encouraging developers to devote more time to their project while still having a high-quality, detailed README.md for
+
+## Usage - 
+Please find details on usage below:
+
+Metadata definition.
+
+## Trouble Shooting, Bugs & Tests: 
+Here are any problems I encountered with this project or any tests I ran:
+ A script that does a local build. Uses docker.
+
+## Authors Contact: 
+
+### Authors email: yasmin.bunnie@hotmail.co
+### Authors GitHub: [yasmin-io](https://github.com/yasmin-io/)
+---
+## License:
+
+

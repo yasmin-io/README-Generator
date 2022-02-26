@@ -14,11 +14,10 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
- ---
-
 ## Project Description 
- 
+
 ${data.description}
+
  ---
 
  ## Contents:
@@ -41,6 +40,8 @@ ${data.installation}
 Please find details on usage below:
 
 ${data.usage}
+
+---
 
 ## Trouble Shooting, Bugs & Tests: 
 Here are any problems I encountered with this project or any tests I ran:
